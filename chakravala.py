@@ -37,7 +37,7 @@ def selfcomposition(a,b,k,N):
 """
 Uses the Chakravala cyclic method to solve, given a positive integer N, 
 for the positive integers x and y, which solves x**2-N*y**2=1 where x is minimized.
-If N is a square, there is no solution, 
+If N is a square, there is no solution with y > 0. 
 """
 def chakravala(N):
     #Guess an initial tuple (a,b,k)
