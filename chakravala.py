@@ -4,7 +4,7 @@ from fractions import Fraction
 
 
 """
-For a solution a**2-n*b**2=k, return a new such tuple. 
+For a solution a**2-N*b**2=k, return a new such tuple. 
 """
 def selfcomposition(a,b,k,N):
     
